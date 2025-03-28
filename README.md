@@ -1,5 +1,28 @@
-This is an IOS app project for a RGB Color selector
+# 🎨 RGB Color Selector
 
-*Built with SwiftUI.
+An elegant and simple iOS app for selecting RGB colors using SwiftUI.  
+Easily adjust Red, Green, and Blue sliders to explore color combinations in real-time.
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-03-28 at 14 39 38](https://github.com/user-attachments/assets/106cebba-c422-4c11-8801-b42e37a352f4)
+---
+
+## 📱 Preview
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/106cebba-c422-4c11-8801-b42e37a352f4" alt="App Screenshot" width="300"/>
+</div>
+
+---
+
+## 🚀 Features
+
+- Real-time color preview
+- Intuitive slider controls for R, G, and B values
+- Built entirely with SwiftUI
+- Adaptive layout for iPhone screens
+
+---
+
+## 🛠 Built With
+
+- [Swift](https://developer.apple.com/swift/)
+- [SwiftUI](https://developer.apple.com/xcode/swiftui/)
