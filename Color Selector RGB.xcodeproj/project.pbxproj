@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1742E7532D9717E7009DE27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1742E73A2D9717E5009DE27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1742E7412D9717E5009DE27D;
+			remoteInfo = "Color Selector RGB";
+		};
+		1742E75D2D9717E7009DE27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1742E73A2D9717E5009DE27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1742E7412D9717E5009DE27D;
+			remoteInfo = "Color Selector RGB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1742E7422D9717E5009DE27D /* Color Selector RGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Selector RGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1742E7522D9717E7009DE27D /* Color Selector RGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Selector RGBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1742E75C2D9717E7009DE27D /* Color Selector RGBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Selector RGBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1742E7442D9717E5009DE27D /* Color Selector RGB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color Selector RGB";
+			sourceTree = "<group>";
+		};
+		1742E7552D9717E7009DE27D /* Color Selector RGBTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color Selector RGBTests";
+			sourceTree = "<group>";
+		};
+		1742E75F2D9717E7009DE27D /* Color Selector RGBUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color Selector RGBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1742E73F2D9717E5009DE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E74F2D9717E7009DE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E7592D9717E7009DE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1742E7392D9717E5009DE27D = {
+			isa = PBXGroup;
+			children = (
+				1742E7442D9717E5009DE27D /* Color Selector RGB */,
+				1742E7552D9717E7009DE27D /* Color Selector RGBTests */,
+				1742E75F2D9717E7009DE27D /* Color Selector RGBUITests */,
+				1742E7432D9717E5009DE27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1742E7432D9717E5009DE27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1742E7422D9717E5009DE27D /* Color Selector RGB.app */,
+				1742E7522D9717E7009DE27D /* Color Selector RGBTests.xctest */,
+				1742E75C2D9717E7009DE27D /* Color Selector RGBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1742E7412D9717E5009DE27D /* Color Selector RGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1742E7662D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGB" */;
+			buildPhases = (
+				1742E73E2D9717E5009DE27D /* Sources */,
+				1742E73F2D9717E5009DE27D /* Frameworks */,
+				1742E7402D9717E5009DE27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1742E7442D9717E5009DE27D /* Color Selector RGB */,
+			);
+			name = "Color Selector RGB";
+			packageProductDependencies = (
+			);
+			productName = "Color Selector RGB";
+			productReference = 1742E7422D9717E5009DE27D /* Color Selector RGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1742E7512D9717E7009DE27D /* Color Selector RGBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1742E7692D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGBTests" */;
+			buildPhases = (
+				1742E74E2D9717E7009DE27D /* Sources */,
+				1742E74F2D9717E7009DE27D /* Frameworks */,
+				1742E7502D9717E7009DE27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1742E7542D9717E7009DE27D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1742E7552D9717E7009DE27D /* Color Selector RGBTests */,
+			);
+			name = "Color Selector RGBTests";
+			packageProductDependencies = (
+			);
+			productName = "Color Selector RGBTests";
+			productReference = 1742E7522D9717E7009DE27D /* Color Selector RGBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1742E75B2D9717E7009DE27D /* Color Selector RGBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1742E76C2D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGBUITests" */;
+			buildPhases = (
+				1742E7582D9717E7009DE27D /* Sources */,
+				1742E7592D9717E7009DE27D /* Frameworks */,
+				1742E75A2D9717E7009DE27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1742E75E2D9717E7009DE27D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1742E75F2D9717E7009DE27D /* Color Selector RGBUITests */,
+			);
+			name = "Color Selector RGBUITests";
+			packageProductDependencies = (
+			);
+			productName = "Color Selector RGBUITests";
+			productReference = 1742E75C2D9717E7009DE27D /* Color Selector RGBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1742E73A2D9717E5009DE27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1742E7412D9717E5009DE27D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1742E7512D9717E7009DE27D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1742E7412D9717E5009DE27D;
+					};
+					1742E75B2D9717E7009DE27D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1742E7412D9717E5009DE27D;
+					};
+				};
+			};
+			buildConfigurationList = 1742E73D2D9717E5009DE27D /* Build configuration list for PBXProject "Color Selector RGB" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1742E7392D9717E5009DE27D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1742E7432D9717E5009DE27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1742E7412D9717E5009DE27D /* Color Selector RGB */,
+				1742E7512D9717E7009DE27D /* Color Selector RGBTests */,
+				1742E75B2D9717E7009DE27D /* Color Selector RGBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1742E7402D9717E5009DE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E7502D9717E7009DE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E75A2D9717E7009DE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1742E73E2D9717E5009DE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E74E2D9717E7009DE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1742E7582D9717E7009DE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1742E7542D9717E7009DE27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1742E7412D9717E5009DE27D /* Color Selector RGB */;
+			targetProxy = 1742E7532D9717E7009DE27D /* PBXContainerItemProxy */;
+		};
+		1742E75E2D9717E7009DE27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1742E7412D9717E5009DE27D /* Color Selector RGB */;
+			targetProxy = 1742E75D2D9717E7009DE27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1742E7642D9717E7009DE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1742E7652D9717E7009DE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1742E7672D9717E7009DE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Selector RGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1742E7682D9717E7009DE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Selector RGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1742E76A2D9717E7009DE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Selector RGB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Selector RGB";
+			};
+			name = Debug;
+		};
+		1742E76B2D9717E7009DE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Selector RGB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Selector RGB";
+			};
+			name = Release;
+		};
+		1742E76D2D9717E7009DE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Selector RGB";
+			};
+			name = Debug;
+		};
+		1742E76E2D9717E7009DE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D336X52SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "valfrido.Color-Selector-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Selector RGB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1742E73D2D9717E5009DE27D /* Build configuration list for PBXProject "Color Selector RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1742E7642D9717E7009DE27D /* Debug */,
+				1742E7652D9717E7009DE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1742E7662D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1742E7672D9717E7009DE27D /* Debug */,
+				1742E7682D9717E7009DE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1742E7692D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1742E76A2D9717E7009DE27D /* Debug */,
+				1742E76B2D9717E7009DE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1742E76C2D9717E7009DE27D /* Build configuration list for PBXNativeTarget "Color Selector RGBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1742E76D2D9717E7009DE27D /* Debug */,
+				1742E76E2D9717E7009DE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1742E73A2D9717E5009DE27D /* Project object */;
+}
