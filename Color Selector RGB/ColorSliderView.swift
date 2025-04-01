@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ColorSliderView: View {
+    @Binding var colorValue : Double
+    var color: Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            Circle()
+                .frame(width: 25)
+                .foregroundStyle(color)
+            Slider(value: $colorValue)
+        }
     }
 }
 
 #Preview {
-    ColorSliderView()
+    ColorSliderView(colorValue: .constant(0.5), color: .blue)
 }
